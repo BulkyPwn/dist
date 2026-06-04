@@ -1,7 +1,7 @@
 $scriptDir = $PSScriptRoot
 $fileName  = "AI_Assistant_Setup 1.0.0.exe"
 $file      = Join-Path $scriptDir $fileName
-$chunkSize = 20MB
+$chunkSize = 100MB
 
 # === Split ===
 $stream = [System.IO.File]::OpenRead($file)
