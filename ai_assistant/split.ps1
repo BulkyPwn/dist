@@ -1,5 +1,5 @@
 $scriptDir = $PSScriptRoot
-$fileName  = "AI_Assistant_Setup 1.0.0.exe"
+$fileName  = "AI_Assistant Setup 1.0.0.exe"
 $file      = Join-Path $scriptDir $fileName
 $chunkSize = 100MB
 
